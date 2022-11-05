@@ -49,6 +49,7 @@ function fiore(x,y,d)
   let y1 = y - d/2  
   let y2 = y + d/2
   
+  strokeWeight(4)
   circle(x1,y1,d)
   fill("red")
   circle(x2,y1,d)
